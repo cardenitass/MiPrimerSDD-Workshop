@@ -1,0 +1,10 @@
+﻿{
+    "name":  "curso-pswe-07",
+    "private":  true,
+    "type":  "module",
+    "scripts":  {
+                    "start":  "node server.js",
+                    "test":  "node --test",
+                    "lint":  "node --check server.js \u0026\u0026 node --check src/main.js \u0026\u0026 node --check src/logic.js \u0026\u0026 node --check src/persistence.js \u0026\u0026 node --check src/ui.js \u0026\u0026 node --check tests/architecture.test.js \u0026\u0026 node --check tests/persistence.test.js \u0026\u0026 node --check tests/tasks.test.js \u0026\u0026 node --check tests/ui.test.js"
+                }
+}
